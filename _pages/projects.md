@@ -14,8 +14,8 @@ a model to leverage unlabeled data. We are considering the problem of selecting 
 
 
 ## _Results_
-- We propose a new sampling method. Suppose our sampling budge is $k$. First, we randomy select a subset using importance sampling where the probability of choosing a point is proportional to it's spectral leverage score. Then we divid the subselected points into $k$ parts by k-means and select the $k$ points nearest to the cluster centers.
-- We show our sampling method outperform than many other methods: Random, Coreset, K-means, Spectral clustering, and maximum mean discrepancy ([MMD](https://papers.nips.cc/paper/2016/hash/5680522b8e2bb01943234bce7bf84534-Abstract.html)). The comparison results using FixMatch with 20 labels on CIFAR-10 is shown in the above image. We conduct comparison experiments using the logistic regression model with only the labeled samples (accuracy on test data of CIFAR-10 and CIFAR-100 are shown in the above table). We also conduct logistic regression on ImageNet with 2000 labeled samples. Our method outperforms than other methods.
+- We propose a new sampling method. Suppose our sampling budge is $k$. First, we randomy select a subset using importance sampling where the probability of choosing a point is proportional to it's spectral leverage score. Then we us K-means to divid the subselected samples into $k$ parts and select the $k$ points nearest to the cluster centers.
+- We show our sampling method outperform than many other methods: random, coreset, K-means, spectral clustering, and maximum mean discrepancy ([MMD](https://papers.nips.cc/paper/2016/hash/5680522b8e2bb01943234bce7bf84534-Abstract.html)). The comparison of different sampling methods on CIFAR-10 with 20 labeling budget is shown in the above image. We also compare different methods by training the logistic regression model with only the labeled samples (accuracy on test data of CIFAR-10 and CIFAR-100 with different labeling budges are shown in the above table). We also conduct logistic regression on ImageNet with 2000 labeled samples. Our method outperforms than other methods.
 
 
 <br/><br/>
@@ -35,7 +35,7 @@ DBSCAN is a broadly used density-based clustering algorithm. It requires two use
 
 ## _Results_
 ### KNN-DBSCAN
-- We propose a new density-based clustering algorithm KNN-DBSCAN to enable the using of directed $k$-nearest neighbor graph (k-NNG). One benefit of using $k$-NNG it that there exist effective approximate randomized algorithms for $k$-NNG computation. In addition, the memory requirements for $k$-NNG always remain $O(nk)$, whereas for $\epsilon$-NNG can explode to $O(n^2)$ (n is the number of points).
+- We propose a new density-based clustering algorithm KNN-DBSCAN to enable the using of directed $k$-nearest neighbor graph ($k$-NNG). One benefit of using $k$-NNG it that there exist effective approximate randomized algorithms for $k$-NNG computation. In addition, the memory requirements for $k$-NNG always remain $O(nk)$, whereas for $\epsilon$-NNG can explode to $O(n^2)$ (n is the number of points).
 - We perform theoretical analysis to discuss the relation of KNN-DBSCAN to the original DBSCAN. We also empirically show that both of the two methods have similar clustering performances given same input parameters ($\epsilon$ and $k$).
 
 ### Parallel Algorithms
