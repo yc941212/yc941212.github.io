@@ -3,7 +3,7 @@ permalink: /projects/
 title: ""
 ---
 
-# <ins>[PROJECT 1] SUBSET SELECTION FOR COLD STARTING SEMI-SUPERVISED LEARNING</ins>
+# <ins>SUBSET SELECTION FOR COLD STARTING SEMI-SUPERVISED LEARNING</ins>
 
 ![](/images/project1/p1_fig.png)
 ![](/images/project1/p1_table.png)
@@ -19,7 +19,7 @@ a model to leverage unlabeled data. We are considering the problem of selecting 
 
 
 <br/><br/>
-# <ins>[PROJECT 2] KNN-DBSCAN: A DBSCAN IN HIGH DIMENSIONS</ins>
+# <ins>KNN-DBSCAN: A DBSCAN IN HIGH DIMENSIONS</ins>
 
 ![](/images/project2/p2_weak.png)
 ![](/images/project2/p2_real.png)
@@ -46,7 +46,7 @@ DBSCAN is a broadly used density-based clustering algorithm. It requires two use
 
 
 <br/><br/>
-# <ins>[PROJECT 3] A GALERKIN METHOD FOR MODELING FLOW IN POROUS MEDIA WITH IMMERSED FAULTS</ins>
+# <ins>A GALERKIN METHOD FOR MODELING FLOW IN POROUS MEDIA WITH IMMERSED FAULTS</ins>
 
 ![](/images/project3/p3_t.png)
 
