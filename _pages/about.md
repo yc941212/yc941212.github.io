@@ -9,8 +9,7 @@ redirect_from:
 ---
 
 
-I'm a third-year PhD student in the Oden Institute for Computational Engineering and Sciences at The University of Texas at Austin. My research interests lie in the general area of machine learning. Prior to UT Austin, I received my Bachelor’s Degree in Tsinghua University. [[CV]](/files/Youguang_CV.pdf)
-
+I'm a PhD student at University of Texas at Austin and I'm advised by Prof. George Biros. My research interest lies in the method and theory of machine learning, including active learning, online learning and generative modeling. Prior to UT Austin, I completed my undergraduate studies in Tsinghua University. 
 
 
 
