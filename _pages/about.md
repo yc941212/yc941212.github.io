@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
+I am a PhD candidate at the University of Texas at Austin, advised by Prof. George Biros. My research focuses on the theory and scalable implementation of machine learning algorithms, including active learning, optimal experimental design, density-based clustering, and efficient MCMC methods for large-scale Bayesian inverse problems.
 
-I'm a PhD candidate at University of Texas at Austin and I'm advised by Prof. George Biros. My research interest lies in the method and theory of machine learning, including active learning, online learning and generative modeling. Prior to UT Austin, I completed my undergraduate studies in Tsinghua University. 
-
-
-
+Prior to UT Austin, I completed my undergraduate studies at Tsinghua University.
