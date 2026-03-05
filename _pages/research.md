@@ -5,7 +5,7 @@ permalink: /research/
 
 # Research Overview
 
-My research develops theoretically grounded and scalable algorithms for statistical learning and Bayesian inference. I focus on active learning, optimal experimental design, and efficient MCMC methods for large-scale inverse problems. My work combines non-asymptotic statistical guarantees, numerical linear algebra, and high-performance computing to design algorithms that are both provably optimal and practically scalable.
+My research develops theoretically grounded and scalable algorithms for machine learning and Bayesian inference. I focus on active learning, optimal experimental design, and efficient MCMC methods for large-scale inverse problems. My work integrates optimization, non-asymptotic statistical analysis, and numerical linear algebra with high-performance computing to design algorithms that are both provably efficient and practically scalable.
 
 ---
 
