@@ -11,8 +11,7 @@ My research develops theoretically grounded and scalable algorithms for machine 
 
 ## 1. Efficient MCMC for Bayesian Inverse Problems with Approximate Operators
 
-**Publications:**  
-AISTATS 2026 · ICML 2026 submission  
+**Publications:**  AISTATS 2026 · ICML 2026 submission  
 
 - [Latent-IMH (AISTATS 2026)](https://arxiv.org/abs/2601.20888)  
 - [Proximal-IMH (ICML 2026 submission)](https://arxiv.org/abs/2602.21426)
